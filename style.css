@@ -50,25 +50,6 @@ img {
   text-transform: capitalize;
 }
 
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-.contact-link:hover {
-  color: white;
-}
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 .about-paragraphs p {
   margin: 10px;
 }
@@ -84,10 +65,7 @@ img {
 .email-link:hover {
   text-decoration: underline;
 }
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
+
 .primary-link {
   border-radius: 4px;
   font-size: 18px;
@@ -100,6 +78,18 @@ img {
 }
 .primary-link:hover {
   color: white;
+}
+.secondary-link {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.secondary-link:hover {
+  color: var(--primary-color);
 }
 .dictionary-link {
   padding: 15px;
