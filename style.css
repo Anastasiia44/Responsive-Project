@@ -20,16 +20,7 @@ h4 {
   font-family: var(--heading-font-family);
 }
 
-h1 {
-  font-size: 96px;
-}
-
-h2 {
-  font-size: 48px;
-}
-
 h3 {
-  font-size: 24px;
   opacity: 0.7;
 }
 
@@ -64,7 +55,9 @@ img {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
+.contact-link:hover {
+  color: white;
+}
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -96,10 +89,16 @@ img {
   height: auto;
 }
 .primary-link {
-  padding: 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   text-decoration: none;
+  color: white;
+}
+.primary-link:hover {
   color: white;
 }
 .dictionary-link {
@@ -108,4 +107,57 @@ img {
   box-shadow: var(--box-shadow);
   text-decoration: none;
   color: white;
+}
+.dictionary-link:hover {
+  color: white;
+}
+
+footer .contact-box {
+  margin-top: 120px;
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+@media (max-width: 576px) {
+  h1 {
+    line-height: 1.5;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
